@@ -1,47 +1,117 @@
-a {
-  text-decoration: none;
+.site-header {
+  background-color: #ffffff;
 }
-/* li {
+.sitenav-list {
   list-style: none;
-} */
-strong {
-  color: #ff7500;
 }
-header {
-  width: 1440px;
-  height: 191px;
-}
-nav a {
+.sitenav-link {
+  font-size: 13px;
+  line-height: 15px;
+  font-weight: 500;
+  letter-spacing: 1px;
   text-transform: uppercase;
+  text-decoration: none;
   color: #000000;
-  font-size: 12px;
-  font-weight: bold;
 }
-.buttom {
+.main-link {
+  font-size: 13px;
+  line-height: 15px;
   background-color: #ff7500;
   color: #ffffff;
+  text-decoration: none;
 }
-.subtitle {
-  font-size: 58px;
-  font-weight: bold;
-  letter-spacing: -3px;
-}
-.title {
-  font-size: 32px;
-  font-weight: bold;
-}
-.book {
-  width: 1440px;
-  height: 588px;
+.hero {
   background-color: #252420;
   color: #ffffff;
 }
-.img-icon {
+.hero-content {
+  width: 390px;
+}
+.orange-line {
+  width: 80px;
+  height: 3px;
+  background-color: #ff7500;
+}
+.hero-img {
+  width: 510px;
+  height: 510px;
+}
+.hero-heading {
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+}
+.hero-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}
+
+.features-heading {
+  width: 440px;
+  font-size: 72px;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+}
+.feature {
+  width: 340px;
+}
+.features-icon {
+  width: 100px;
+  height: 100px;
   background-color: rgba(255, 117, 0, 0.2);
 }
-.aksiya {
+.features-title {
+  font-size: 24px;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+}
+.features-info {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}
+
+.promo {
   background-color: #252420;
   color: #ffffff;
-  width: 1100px;
-  height: 419px;
+}
+.promo-content {
+  width: 440px;
+}
+.promo-heading {
+  font-size: 40px;
+  line-height: 48px;
+}
+.promo-text {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.promo-highlight {
+  color: #ff7500;
+}
+.promo-img {
+  width: 440px;
+  height: 440px;
+  object-fit: cover;
+}
+
+.site-footer {
+  background-color: #f8f8f8;
+}
+.site-footer ul {
+  list-style: none;
+}
+.site-footer-divider {
+  height: 2px;
+  background-color: rgba(37, 36, 32, 0.5);
+}
+.site-footer-links {
+  width: 224px;
+}
+.site-footer-links a {
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: none;
+  color: #252420;
 }
