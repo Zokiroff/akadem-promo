@@ -5,9 +5,17 @@ body {
   font-family: "Roboto", "Arial", sans-serif;
 }
 .site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #ffffff;
 }
+.sitenav {
+  display: flex;
+  align-items: center;
+}
 .sitenav-list {
+  display: flex;
   list-style: none;
 }
 .sitenav-link {
@@ -27,6 +35,9 @@ body {
   text-decoration: none;
 }
 .hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background-color: #252420;
   color: #ffffff;
 }
@@ -54,6 +65,11 @@ body {
   line-height: 1.2;
   font-family: 'Roboto Condensed', "Roboto", "Arial", sans-serif;
 }
+.features-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
 .feature {
   width: 340px;
 }
@@ -69,6 +85,9 @@ body {
 }
 
 .promo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background-color: #252420;
   color: #ffffff;
 }
@@ -95,9 +114,21 @@ body {
 .site-footer ul {
   list-style: none;
 }
+.footer-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-socials {
+  display: flex;
+  align-items: center;
+}
 .site-footer-divider {
   height: 2px;
   background-color: rgba(37, 36, 32, 0.5);
+}
+.footer-bottom {
+  display: flex;
 }
 .site-footer-links {
   width: 224px;
