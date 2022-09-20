@@ -4,11 +4,17 @@ body {
   letter-spacing: 0.5px;
   font-family: "Roboto", "Arial", sans-serif;
 }
+*:focus {
+  outline: 2px dotted #ff7500;
+  outline-offset: 3px;
+}
 .site-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #ffffff;
+  border-top: 5px solid #ff7500;
+  padding: 16px 0 16px;
 }
 .logo-link {
   transition: opacity 0.4s ease;
@@ -26,6 +32,7 @@ body {
 .sitenav-list {
   display: flex;
   list-style: none;
+  padding: 0;
 }
 .sitenav-link {
   font-size: 13px;
@@ -45,12 +52,16 @@ body {
   opacity: 0.6;
 }
 .main-link {
+  display: inline-block;
   font-size: 13px;
   line-height: 15px;
   background-color: #ff7500;
   color: #ffffff;
   text-decoration: none;
   transition: opacity 0.4s ease;
+  border-radius: 4px;
+  padding: 12px 24px;
+  font-weight: bold;
 }
 .main-link:hover {
   opacity: 0.8;
@@ -59,6 +70,7 @@ body {
   opacity: 0.6;
 }
 .hero {
+  padding: 60px 0 60px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -69,6 +81,7 @@ body {
   width: 390px;
 }
 .orange-line {
+  border: none;
   width: 80px;
   height: 3px;
   background-color: #ff7500;
@@ -76,6 +89,7 @@ body {
 .hero-img {
   width: 510px;
   height: 510px;
+  border-radius: 8px;
 }
 .hero-heading {
   font-family: 'Roboto Condensed', "Roboto", "Arial", sans-serif;
@@ -83,6 +97,9 @@ body {
   line-height: 1.2;
 }
 
+.features {
+  padding: 210px 0 210px;
+}
 .features-heading {
   width: 440px;
   font-size: 72px;
@@ -93,6 +110,7 @@ body {
   display: flex;
   justify-content: space-between;
   list-style: none;
+  padding: 0;
 }
 .feature {
   width: 340px;
@@ -101,6 +119,10 @@ body {
   width: 100px;
   height: 100px;
   background-color: rgba(255, 117, 0, 0.2);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .features-title {
   font-size: 24px;
@@ -114,6 +136,7 @@ body {
   justify-content: space-between;
   background-color: #252420;
   color: #ffffff;
+  border-radius: 12px;
 }
 .promo-content {
   width: 440px;
@@ -130,12 +153,15 @@ body {
   width: 440px;
   height: 440px;
   object-fit: cover;
+  border-radius: 12px;
 }
 
 .site-footer {
   background-color: #f8f8f8;
+  padding: 56px 0 56px;
 }
 .site-footer ul {
+  padding: 0;
   list-style: none;
 }
 .footer-top {
@@ -144,6 +170,7 @@ body {
   justify-content: space-between;
 }
 .footer-socials {
+  padding: 0;
   display: flex;
   align-items: center;
 }
@@ -157,6 +184,7 @@ body {
   opacity: 0.6;
 }
 .site-footer-divider {
+  border: 0;
   height: 2px;
   background-color: rgba(37, 36, 32, 0.5);
 }
